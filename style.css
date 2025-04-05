@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  grid-template-rows: repeat(auto-fill, 50px);
+  width: 100vw;
+  height: 100vh;
+  gap: 0; /* Removed gap to avoid double spacing */
+  background-color: #ccc;
+}
